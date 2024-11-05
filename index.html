@@ -1,0 +1,43 @@
+<!--
+Projeto de Portfólio Pessoal
+Desenvolvido por Wagner da Silva Macedo
+Utilizando apenas HTML, CSS e JavaScript puro, sem o uso de frameworks, como Bootstrap, WordPress, Wix, ou similares.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Wagner da Silva Macedo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeçalho com o menu de navegação -->
+    <header>
+        <h1>Wagner da Silva Macedo</h1>
+        <p>Desenvolvedor e entusiasta em tecnologia</p>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="trocarConteudo('sobre')">Sobre Mim</a></li>
+                <li><a href="#" onclick="trocarConteudo('formacao')">Formação</a></li>
+                <li><a href="#" onclick="trocarConteudo('portfolio')">Portfólio</a></li>
+                <li><a href="#" onclick="trocarConteudo('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Área principal onde o conteúdo é exibido e atualizado -->
+    <main>
+        <section id="conteudo">
+            <p>Bem-vindo ao meu portfólio pessoal! Clique nas seções acima para saber mais sobre mim.</p>
+        </section>
+    </main>
+
+    <!-- Link para o arquivo de JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
