@@ -1,4 +1,4 @@
-// Função que troca o conteúdo exibido na área principal do site
+// Função para alterar o conteúdo exibido conforme a seção selecionada
 function trocarConteudo(secao) {
     let conteudo = document.getElementById('conteudo');
 
@@ -6,15 +6,15 @@ function trocarConteudo(secao) {
         case 'sobre':
             conteudo.innerHTML = `
                 <h2>Sobre Mim</h2>
-                <p>Olá! Meu nome é Wagner da Silva Macedo, sou apaixonado por tecnologia e desenvolvimento web. Tenho interesse em aprimorar minhas habilidades em programação e design. No meu tempo livre, gosto de ler sobre novas tecnologias e praticar programação.</p>
-                <p>Hobbies: leitura, música, desenvolvimento de projetos pessoais.</p>
+                <p>Olá! Meu nome é Wagner da Silva Macedo, sou desenvolvedor e apaixonado por tecnologia. No meu tempo livre, gosto de aprender sobre novas linguagens de programação e explorar o mundo da tecnologia.</p>
+                <p>Hobbies: leitura, música, desenvolvimento de projetos pessoais e criação de impressões 3D.</p>
             `;
             break;
 
         case 'formacao':
             conteudo.innerHTML = `
                 <h2>Formação</h2>
-                <p>Bacharelado em Ciência da Computação pela Universidade de Tecnologia ABC.</p>
+                <p>Bacharel em Ciência da Computação pela Universidade Uninter.</p>
                 <p>Idiomas: Português (nativo), Inglês (avançado).</p>
                 <p>Certificações: Curso de Desenvolvimento Web, Certificado em Data Science e Python.</p>
             `;
