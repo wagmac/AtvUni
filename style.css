@@ -1,0 +1,70 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0073e6, #00b3b3);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Subtítulo */
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 1em;
+}
+
+/* Links do menu */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005bb5;
+}
+
+/* Conteúdo da seção */
+#conteudo {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
